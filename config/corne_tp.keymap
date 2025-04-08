@@ -16,9 +16,9 @@
 #define NAV 2
 #define NP 3
 #define RAY 4
-#define SCROLL 5
+#define EXTRA 5
 #define MISC 6
-#define EXTRA 7
+#define SCROLL 7
 #define BT 8
 
 #include "combos.dtsi"
@@ -169,28 +169,6 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
       >;
     };
 
-    SCROLL {
-      display-name = "SCROLL";
-      bindings = <
-        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
-        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
-        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
-                                                          &trans                   &trans                   &trans                        &trans                   &trans                   &trans 
-      >;
-    };
-
-    // Automatically activated when the mouse or trackpoint moves.
-    // Configured in `include/mouse_tp.dtsi`.
-    MISC {
-      display-name = "MISC";
-      bindings = <
-        U_TOG_TP_SET             &trans                   &kp C_VOL_DN             &kp C_VOL_UP             &trans                        &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET    
-        &trans                   &trans                   &kp LG(LBKT)             &kp LG(RBKT)             &trans                        &trans                   &kp C_AC_FORWARD         &kp C_AC_BACK            &trans                   &trans                  
-        &trans                   &none                    &mo 8                    &kp LG(RBRC)             &trans                        &trans                   &trans                   &mo 8                    &none                    &trans                    
-                                                          &mkp MCLK                &mkp RCLK                &mo SCROLL                    &mo SCROLL               &mkp RCLK                &mkp MCLK
-      >;
-    };
-
     // You can find the defines for the actual key press behaviors in `include/mouse_tp.dtsi`.
     EXTRA {
       display-name = "EXTRA";
@@ -199,6 +177,26 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
         U_MSS_RESET              &none                    U_MSS_TP_NI_D            U_MSS_TP_NI_I            U_MSS_TP_PT_D                 U_MSS_TP_PT_D            U_MSS_TP_NI_D            U_MSS_TP_NI_I            &none                    U_MSS_RESET          
         U_MSS_LOG                &none                    U_MSS_TP_V6_D            U_MSS_TP_V6_I            &none                         &none                    U_MSS_TP_V6_D            U_MSS_TP_V6_I            &none                    U_MSS_LOG
                                                           &trans                   &mkp LCLK                &mkp RCLK                     &none                    &mkp LCLK                &mkp RCLK
+      >;
+    };
+
+    MISC {
+      display-name = "MISC";
+      bindings = <
+        U_TOG_TP_SET             &trans                   &kp C_VOL_DN             &kp C_VOL_UP             &trans                        &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET    
+        &trans                   &trans                   &kp LG(LBKT)             &kp LG(RBKT)             &trans                        &trans                   &kp C_AC_FORWARD         &kp C_AC_BACK            &trans                   &trans                  
+        &trans                   &none                    &mo 8                    &kp LG(RBRC)             &trans                        &trans                   &trans                   &mo 8                    &none                    &trans                    
+                                                          &mkp MCLK                &mkp RCLK                &mo 7                         &mo 7               &mkp RCLK                &mkp MCLK
+      >;
+    };
+
+    SCROLL {
+      display-name = "SCROLL";
+      bindings = <
+        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
+        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
+        &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans         
+                                                          &trans                   &trans                   &trans                        &trans                   &trans                   &trans 
       >;
     };
 
