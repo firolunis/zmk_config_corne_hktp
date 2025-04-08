@@ -124,8 +124,8 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
       bindings = <
         &hml N2 Q                  &hml N3 W                &hml N4 E               &hml N5 R               &hml N6 T                      &hmr N7 Y                      &hmr N8 U                &hmr N9 I               &hmr N0 O               &kp P                   
         &hml LCTRL A               &hml LALT S              &hml LCMD D             &hmls LSHIFT F          &hml LC(LA(LG(LSHIFT))) G      &hmr RC(RA(RG(RSHIFT))) H      &hmrs RSHIFT J           &hmr RCMD K             &hmr RALT L             &hmr RCTRL SEMI         
-        &hml LC(LA(SHIFT)) Z       &lt 6 X                  &lt 5 C                 &lt 4 V                 &lt 3 B                        &lt 3 N                        &lt 4 M                  &lt 5 COMMA             &lt 6 DOT               &hmr RC(RA(RSHIFT)) SLASH 
-                                                            &lt 2 BACKSPACE         &lt 1 SPACE             &mkp LCLK                      &mkp LCLK                      &lt 1 ENTER              &lt 2 ESC
+        &hml LC(LA(SHIFT)) Z       &lt MISC X               &lt EXTRA C             &lt RAY V               &lt NP B                       &lt NP N                       &lt RAY M                &lt EXTRA COMMA         &lt MISC DOT            &hmr RC(RA(RSHIFT)) SLASH 
+                                                            &lt NAV BACKSPACE       &lt NUM SPACE           &mkp LCLK                      &mkp LCLK                      &lt NUM ENTER            &lt NAV ESC
       >;  
     };
     
@@ -185,8 +185,8 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
       bindings = <
         U_TOG_TP_SET             &trans                   &kp C_VOL_DN             &kp C_VOL_UP             &trans                        &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET    
         &trans                   &trans                   &kp LG(LBKT)             &kp LG(RBKT)             &trans                        &trans                   &kp C_AC_FORWARD         &kp C_AC_BACK            &trans                   &trans                  
-        &trans                   &none                    &mo 8                    &kp LG(RBRC)             &trans                        &trans                   &trans                   &mo 8                    &none                    &trans                    
-                                                          &mkp MCLK                &mkp RCLK                &mo 7                         &mo 7               &mkp RCLK                &mkp MCLK
+        &trans                   &none                    &mo BT                   &kp LG(RBRC)             &trans                        &trans                   &trans                   &mo BT                   &none                    &trans                    
+                                                          &mkp MCLK                &mkp RCLK                &mo SCROLL                    &mo SCROLL               &mkp RCLK                &mkp MCLK
       >;
     };
 
