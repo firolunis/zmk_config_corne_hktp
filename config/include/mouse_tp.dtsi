@@ -88,10 +88,10 @@
               status = "okay"; 
               compatible = "zmk,input-accelerator"; 
               acceleration-curve = "scroll"; 
-              acceleration-factor-rate = <5>; 
+              acceleration-factor-rate = <2>; 
               acceleration-start-offset = <2>; 
-              max-speed = <20>; 
-              divisor = <4>; 
+              max-speed = <5>; 
+              divisor = <2>; 
               enable-interval-based-speed; 
               input-default-sending-rate = <PS2_MOUSE_SAMPLING_RATE>; 
               };
@@ -135,12 +135,12 @@
     &mouse_ps2 {
 
       // How sensitive the TP is (Default: 128)
-      tp-sensitivity = <512>;
+      tp-sensitivity = <1024>;
 
 
       // The maximum mouse movement speed the TP will accelarate to
       // (Default: 97)
-      tp-val6-upper-speed = <4000>;
+      tp-val6-upper-speed = <8000>;
 
 
       // Negative Inertia (Default: 6)
