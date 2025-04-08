@@ -162,10 +162,10 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     RAY {
       display-name = "RAY";
       bindings = <
-        &kp F13             &kp F14       &kp F15   &kp F16     &kp F17                       &kp F18                     &kp F19     &kp F20   &kp F21        &kp F22
-        &kp LCTRL           &kp LALT      &kp LCMD  &kp LSHIFT  &hm LC(LA(LG(LSHIFT))) F23    &hm RC(RA(RG(RSHIFT))) F24  &kp RSHIFT  &kp RCMD  &kp RALT       &kp RCTRL
-        &kp LC(LA(LSHIFT))  &none         &none     &none       &none                         &none                       &none       &none     &none          &kp RC(RA(RSHIFT))
-                                          &none     &none       &none                         &none                       &none       &none
+        &kp F13             &kp F14       &kp F15   &kp F16     &kp F17                        &kp F18                      &kp F19     &kp F20   &kp F21        &kp F22
+        &kp LCTRL           &kp LALT      &kp LCMD  &kp LSHIFT  &hml LC(LA(LG(LSHIFT))) F23    &hmr RC(RA(RG(RSHIFT))) F24  &kp RSHIFT  &kp RCMD  &kp RALT       &kp RCTRL
+        &kp LC(LA(LSHIFT))  &none         &none     &none       &none                          &none                        &none       &none     &none          &kp RC(RA(RSHIFT))
+                                          &none     &none       &none                          &none                        &none       &none
       >;
     };
 
