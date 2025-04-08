@@ -122,7 +122,7 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     BASE {
       display-name = "BASE";
       bindings = <
-        &hml N2 Q                  &hml N3 W                &hml N4 E               &hml N5 R               &hml N6 T                      &hmr N7 Y                      &hmr N8 U                &hmr N9 I               &hmr N0 O               &kp P                   
+        &hml N2 Q                  &hml N3 W                &hml N4 E               &hml N5 R               &hml N6 T                      &hmr N7 Y                      &hmr N8 U                &hmr N9 I               &hmr N0 O               &hmr MINUS P                   
         &hml LCTRL A               &hml LALT S              &hml LCMD D             &hmls LSHIFT F          &hml LC(LA(LG(LSHIFT))) G      &hmr RC(RA(RG(RSHIFT))) H      &hmrs RSHIFT J           &hmr RCMD K             &hmr RALT L             &hmr RCTRL SEMI         
         &hml LC(LA(LSHIFT)) Z      &lt MISC X               &lt EXTRA C             &lt RAY V               &lt NP B                       &lt NP N                       &lt RAY M                &lt EXTRA COMMA         &lt MISC DOT            &hmr RC(RA(RSHIFT)) SLASH 
                                                             &lt NAV BACKSPACE       &lt NUM SPACE           &mkp LCLK                      &mkp LCLK                      &lt NUM ENTER            &lt NAV ESC
