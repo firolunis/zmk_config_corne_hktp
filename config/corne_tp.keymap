@@ -193,8 +193,8 @@ MAKE_SHIFT_HRM(hmrs, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     SCROLL {
       display-name = "SCROLL";
       bindings = <
-        &none                    &trans                   &trans                   &trans                   &trans                        &kp LC(LS(TAB))          &msc SCRL_UP             &kp UP                   &trans                   &kp RC(LEFT)         
-        &kp LCTRL                &kp LALT                 &kp LCMD                 &kp LSHIFT               &trans                        &trans                   &kp LEFT                 &kp DOWN                 &kp RIGHT                &kp RC(UP)         
+        &none                    &trans                   &trans                   &trans                   &trans                        &kp LC(LS(TAB))          &msc SCRL_UP             &kp UP                   &mkp RCLK                &kp RC(LEFT)         
+        &kp LCTRL                &kp LALT                 &kp LCMD                 &kp LSHIFT               &trans                        &mkp LCLK                &kp LEFT                 &kp DOWN                 &kp RIGHT                &kp RC(UP)         
         &none                    &trans                   &trans                   &trans                   &trans                        &kp LC(TAB)              &msc SCRL_DOWN           &msc SCRL_RIGHT          &msc SCRL_LEFT           &kp RC(RIGHT)         
                                                           &trans                   &trans                   &trans                        &trans                   &trans                   &trans 
       >;
