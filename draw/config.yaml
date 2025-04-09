@@ -183,7 +183,6 @@ parse_config:
     '&mmv MOVE_DOWN': Mouse ↓
     '&mmv MOVE_LEFT': Mouse ←
     '&mmv MOVE_RIGHT': Mouse →
-    '&mo 2': Mouse
 
   skip_binding_parsing: false
   zmk_keycode_map:
