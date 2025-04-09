@@ -271,6 +271,12 @@ path {
 <a href="#NAV">
 <text x="0" y="24" class="key hold layer-activator">NAV</text>
 </a></g>
+<g class="combo combopos-0">
+<path d="M364,224 l-50,0" class="combo"/>
+<path d="M364,224 l50,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="211" width="28" height="26" class="combo"/>
+<text x="364" y="224" class="combo tap">LSHIFT</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-NUM">
@@ -451,6 +457,12 @@ path {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
 </g>
+<g class="combo combopos-0">
+<path d="M364,224 l-50,0" class="combo"/>
+<path d="M364,224 l50,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="211" width="28" height="26" class="combo"/>
+<text x="364" y="224" class="combo tap">LSHIFT</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-NAV">
@@ -628,6 +640,12 @@ path {
 <g transform="translate(560, 205)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
+</g>
+<g class="combo combopos-0">
+<path d="M364,224 l-50,0" class="combo"/>
+<path d="M364,224 l50,0" class="combo"/>
+<rect rx="6" ry="6" x="350" y="211" width="28" height="26" class="combo"/>
+<text x="364" y="224" class="combo tap">LSHIFT</text>
 </g>
 </g>
 </g>
@@ -1439,13 +1457,13 @@ path {
 <g transform="translate(588, 140)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_LEFT</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 70%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">SCRL_RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(644, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 70%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">SCRL_RIGHT</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;msc</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">SCRL_LEFT</tspan>
 </text>
 </g>
 <g transform="translate(700, 161)" class="key keypos-29">
@@ -1462,7 +1480,6 @@ path {
 </g>
 <g transform="translate(295, 224) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">LSHIFT</text>
 </g>
 <g transform="translate(433, 224) rotate(-30.0)" class="key held keypos-33">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
