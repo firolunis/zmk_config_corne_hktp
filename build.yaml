@@ -18,17 +18,10 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano_v2/zmk
     shield: corne_tp_left
-  - board: nice_nano_v2
+  - board: nice_nano_v2/zmk
     shield: corne_tp_right
 
-  # Settings Reset firmware
-  # This will build a firmware that can wipe all settings from your
-  # controller. It's useful when you have bluetooth issues or when your split
-  # keyboard halfs are not pairing.
-  #
-  # More info:
-  # https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair
-  - board: nice_nano_v2
+  - board: nice_nano_v2/zmk
     shield: settings_reset
